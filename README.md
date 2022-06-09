@@ -10,7 +10,7 @@ int main()
     printf("your answer is %d\n", c);
     printf("do you wann continue: yes or no\n");
     scanf(" %s", &str);
-    while (str == 'y')
+    while (str == 'yes')
     {
         printf("enter ypur new number\n");
         scanf("%d", &d);
